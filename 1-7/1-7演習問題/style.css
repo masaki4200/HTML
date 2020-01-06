@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: gray;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.main-visual {
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	background-image: url(img/mv.jpg);
+	background-size: cover;
+	background-position: bottom;
+	padding-bottom: 20px
+}
+
+.headline {
+	padding: 20px;
+}
+
+main {
+	width: 840px;
+	margin: 50px auto;
+}
+
+.blog {
+	width: 840px;
+}
+
+.blog-item{
+	border-bottom: 1px solid;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+
+}
+
+
+
+
+

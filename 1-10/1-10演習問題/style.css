@@ -61,3 +61,31 @@ main {
 .blog-title {
 	margin: 15px 0 5px;
 }
+
+
+@media screen and (max-width:768px) {
+	main {
+		width: 100%;
+		background-color: red;
+		margin: 0 auto;
+	}
+	.blog {
+		width: 100%;
+		margin: 0;
+	}
+	.blog-box {
+		width: 90%;
+		margin: 0 5%;
+	}
+
+	.blog-box:nth-child(1),
+	.blog-box:nth-child(2) {
+		margin-bottom: 20px
+	}
+	.blog-box:nth-child(1) {
+		margin-top: 50px;
+	}
+	.blog-box:nth-child(3) {
+		margin-bottom: 50px;
+	}
+}

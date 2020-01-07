@@ -66,7 +66,6 @@ main {
 @media screen and (max-width:768px) {
 	main {
 		width: 100%;
-		background-color: red;
 		margin: 0 auto;
 	}
 	.blog {
@@ -77,7 +76,6 @@ main {
 		width: 90%;
 		margin: 0 5%;
 	}
-
 	.blog-box:nth-child(1),
 	.blog-box:nth-child(2) {
 		margin-bottom: 20px
